@@ -28,7 +28,7 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('Bob',name);
+    newStory = newStory.replace('Bob',name); /*Bobの代わりに名前を埋め込む*/
   }
 
   if(document.getElementById("uk").checked) {
